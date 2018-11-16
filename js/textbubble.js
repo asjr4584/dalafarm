@@ -274,7 +274,7 @@ webpackJsonp([1], {
                     attrs: {
                         id: "bubble-1"
                     }
-                }, [t._v("\n      We're like a crowd-funding, co-working hub of innovation.\n    ")]), t._v(" "), i("div", {
+                }, [t._v("\n      理念を中心に創造しよう！\n    ")]), t._v(" "), i("div", {
                     staticClass: "bubble bubble--bottom-left",
                     attrs: {
                         id: "bubble-2"

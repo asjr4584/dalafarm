@@ -813,8 +813,8 @@ body {
 }
 
 #bubble-1 {
-    left: 11.8%;
-    top: 7%;
+    left: 8.8%;
+    top: 31%;
 }
 
 #bubble-2 {
@@ -904,7 +904,7 @@ body {
 }
 
 .background {
-    background: transparent url(/img/dalasitenew_181113BLDGCS6.png) 0% 0% no-repeat;
+    background: transparent url(/img/dalasite-new_18-11-16-allan.png) 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
     left: 0;

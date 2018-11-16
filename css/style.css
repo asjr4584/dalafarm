@@ -40,29 +40,29 @@ table {
 }
 
 @font-face {
-    font-family: 'PRASans';
-    src: url(/fonts/regular-webfont.woff2) format("woff2"), url(/thread/static/fonts/prasans-regular-webfont.f2d2055.woff) format("woff");
+    font-family: Arial Bold;
+    src: url(/fonts/regular-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-regular-webfont.f2d2055.woff) format("woff")*/;
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PRASans';
-    src: url(/fonts/regular-webfont.woff2) format("woff2"), url(/thread/static/fonts/prasans-medium-webfont.0cd71dd.woff) format("woff");
+    font-family: Arial Bold;
+    src: url(/fonts/regular-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-medium-webfont.0cd71dd.woff) format("woff")*/;
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PRASans';
-    src: url(/fonts/bold-webfont.woff2) format("woff2"), url(/thread/static/fonts/prasans-bold-webfont.33980c9.woff) format("woff");
+    font-family: Arial Bold;
+    src: url(/fonts/bold-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-bold-webfont.33980c9.woff) format("woff")*/;
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PRASans';
-    src: url(/fonts/heavy-webfont.woff2) format("woff2"), url(/thread/static/fonts/prasans-heavy-webfont.b687e85.woff) format("woff");
+    font-family: Arial Bold;
+    src: url(/fonts/heavy-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-heavy-webfont.b687e85.woff) format("woff")*/;
     font-weight: 900;
     font-style: normal;
 }
@@ -70,7 +70,7 @@ table {
 p {
     line-height: 1.5;
     font-size: 16px;
-    font-family: "PRASans", Arial, Helvetica, sans-serif;
+    font-family: Arial Bold, Arial, Helvetica, sans-serif;
 }
 
 strong {
@@ -116,7 +116,7 @@ code {
 h1, .type-alpha, h2, .type-beta, h3, .type-gamma, h4, .type-delta, h5, .type-epsilon, h6, .type-zeta {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "PRASans", Arial, Helvetica, sans-serif;
+    font-family: Arial Bold, Arial, Helvetica, sans-serif;
     font-weight: 900;
     line-height: 1.2;
     margin: 1.25em 0 0.5em;
@@ -161,7 +161,7 @@ html {
 body {
     background-color: #56c8c6;
     color: white;
-    font-family: "PRASans", Arial, Helvetica, sans-serif;
+    font-family: Arial Bold, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     overscroll-behavior: none;

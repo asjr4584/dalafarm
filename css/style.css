@@ -893,21 +893,21 @@ body {
     z-index: 998;
 }
 
-.wayback {
-    /*background: transparent url(/img/wayback.ddfe21a.png) 0% 0% no-repeat;*/
+ /*.wayback {
+   background: transparent url(/img/wayback.ddfe21a.png) 0% 0% no-repeat;
 	background: transparent 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
     left: 0;
     position: fixed;
-	/*    position: fixed;*/
+	position: fixed;
     top: 0;
     width: 100%;
 
-}
+}*/
 
-.background {
-    /*background: transparent url(/img/background.0f3b8fe.png) 0% 0% no-repeat;*/
+/*.background {
+    background: transparent url(/img/background.0f3b8fe.png) 0% 0% no-repeat;
 	background: transparent 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
@@ -916,10 +916,10 @@ body {
     top: 0;
     width: 100%;
 
-}
+}*/
 
-.foreground {
-    /*background: transparent url(/img/foreground.80af42b.png) 0% 0% no-repeat;*/
+/*.foreground {
+    background: transparent url(/img/foreground.80af42b.png) 0% 0% no-repeat;
 	background: transparent 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
@@ -928,7 +928,7 @@ body {
     top: 0;
     width: 100%;
 	
-}
+}*/
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
 body
@@ -943,7 +943,7 @@ body
   */
 .scroll
 {
-  position: fixed;
+  position:fixed;
   bottom: 0;
   left: 0;
 }
@@ -955,17 +955,17 @@ body
 .horizon
 {
   z-index: -1000;
-  width: 3000px;
+  width: 2500px;
 }
 
 .middle
 {
   z-index: -500;
-  width: 4000px;
+  width: 5000px;
 }
 
 .front
 {
-  z-index: -1;
-  width: 6000px;
+  z-index: -1000;
+  width: 7500px;
 }

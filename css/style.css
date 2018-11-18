@@ -41,28 +41,28 @@ table {
 
 @font-face {
     font-family: Arial Bold;
-    src: url(/fonts/regular-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-regular-webfont.f2d2055.woff) format("woff")*/;
+    src: url(fonts/regular-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-regular-webfont.f2d2055.woff) format("woff")*/;
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: Arial Bold;
-    src: url(/fonts/regular-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-medium-webfont.0cd71dd.woff) format("woff")*/;
+    src: url(fonts/regular-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-medium-webfont.0cd71dd.woff) format("woff")*/;
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: Arial Bold;
-    src: url(/fonts/bold-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-bold-webfont.33980c9.woff) format("woff")*/;
+    src: url(fonts/bold-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-bold-webfont.33980c9.woff) format("woff")*/;
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: Arial Bold;
-    src: url(/fonts/heavy-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-heavy-webfont.b687e85.woff) format("woff")*/;
+    src: url(fonts/heavy-webfont.woff2) format("woff2"), /*url(/thread/static/fonts/prasans-heavy-webfont.b687e85.woff) format("woff")*/;
     font-weight: 900;
     font-style: normal;
 }
@@ -894,7 +894,7 @@ body {
 }
 
 .wayback {
-    background: transparent url(/img/wayback.ddfe21a.png) 0% 0% no-repeat;
+    background: transparent url(img/wayback.ddfe21a.png) 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
     left: 0;
@@ -904,7 +904,7 @@ body {
 }
 
 .background {
-    background: transparent url(/img/dalasite-new_18-11-16-allan.png) 0% 0% no-repeat;
+    background: transparent url(img/dalasite-new_18-11-16-allan.png) 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
     left: 0;
@@ -914,7 +914,7 @@ body {
 }
 
 /*.foreground {
-    background: transparent url(/img/foreground.80af42b.png) 0% 0% no-repeat;
+    background: transparent url(img/foreground.80af42b.png) 0% 0% no-repeat;
     background-size: cover;
     height: 100vh;
     left: 0;

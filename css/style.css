@@ -954,18 +954,18 @@ body
   */
 .horizon
 {
-  z-index: -1000;
+  z-index: 1;
   width: 2500px;
 }
 
 .middle
 {
-  z-index: -500;
+  z-index: 500;
   width: 5000px;
 }
 
 .front
 {
-  z-index: -1000;
-  width: 7500px;
+  z-index: 1000;
+  width: 7500px;	
 }

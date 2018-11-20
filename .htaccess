@@ -1,0 +1,20 @@
+AuthUserFile /home/httpd/vhosts/homepage-test.info/dalafarm-recuit/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Input ID and Password."
+AuthType Basic
+require valid-user
+<Files ~ "^.(htpasswd|htaccess)$">
+deny from all
+</Files>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

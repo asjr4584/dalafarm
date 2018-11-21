@@ -894,7 +894,11 @@ body {
 }
 
 .wayback {
+<<<<<<< HEAD
     background: transparent url(../img/dalasite_svg3.svg) 0% 0% no-repeat;
+=======
+    background: transparent url(../img/wayback.ddfe21a.png)) 0% 0% no-repeat;
+>>>>>>> fixed the backgrounds file path
     background-size: cover;
     height: 100vh;
     left: 0;
@@ -905,7 +909,11 @@ body {
 }
 
 .background {
+<<<<<<< HEAD
     background: transparent url(../img/dalasite_svg2.svg) 0% 0% no-repeat;
+=======
+    background: transparent url(../img/dalasite-new_18-11-16-allan.png) 0% 0% no-repeat;
+>>>>>>> fixed the backgrounds file path
     background-size: cover;
     height: 100vh;
     left: 0;
@@ -915,8 +923,13 @@ body {
 	z-index:-500;
 }
 
+<<<<<<< HEAD
 .foreground {
     background: transparent url(../img/dalasite_svg1.svg) 0% 0% no-repeat;
+=======
+/*.foreground {
+    background: transparent url(../img/foreground.80af42b.png) 0% 0% no-repeat;
+>>>>>>> fixed the backgrounds file path
     background-size: cover;
     height: 100vh;
     left: -60px;
